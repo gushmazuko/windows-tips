@@ -8,7 +8,7 @@
 .LINK
   Original source: https://c-nergy.be/blog/?p=15291
 .EXAMPLE
-  powershell iwr -useb https://github.com/gushmazuko/windows-tips/raw/master/SetWallpaper.ps1 | iex; SetWallpaper -img C:/Users/sysadmin/new-wallpaper.jpg
+  powershell "iwr -useb https://github.com/gushmazuko/windows-tips/raw/master/SetWallpaper.ps1 | iex; SetWallpaper -img C:/Users/sysadmin/new-wallpaper.jpg"
 #>
 
 function SetWallpaper(){
